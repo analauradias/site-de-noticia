@@ -3,60 +3,76 @@
 :root {
     --cor-pricipal: #F2F2F2;
     --cor-texto-pricipal: rgb(2, 2, 2);
+    --cor-pagina-incial:#4e5183bb;
 }
 .logo{
     margin-top: 10px;
 }
 .texto-header{
-    margin-left: -350px;
+    display: flex;
+    margin-left: 600px;
     font-family: Agdasima;
+    text-align: center;
+    justify-content: center;
 }
 header {
     background-color: #1C1240;
-    display: grid;
-    grid-template-columns: 200px 600px 300px 300px 300px 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-items: center;
     color: white;
     padding-right: 50px;
     padding-left: 50px;
 }
+.navegacao{
+   width: 100%;
+   background-color: #20235a;
+   padding: 5px;
+   align-items: center;
+}
+
+.navegacao a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.navegacao a:hover{
+    background-color: #010440;
+}
+
 body {
-    display: grid;
     background-color: var(--cor-pricipal);
     color: var(--cor-texto-pricipal);
     margin: 0;
 }
-nav a {
-    text-decoration: none;
-    color: white;
-    transition: 0.2s;
-    display: inline-block;
-    margin-top: 30px;
-    border: square solid 10px;
-    margin-right: -100px;
-    margin-left: -300px;
 
-}
-
-nav a:hover {
-    background-color: #6E37A6;
-
+.pagina-inicial{
+    background-color: var(--cor-pagina-incial);
 }
 
 .menu-inicial{
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    align-content: center;
-    grid-gap: 100px;
-    margin-left: 150px;
-    margin-top: 100px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 
-.img-centro{
-    align-items: center;
+.menu-inicial a{
+    color: #00010D;
 }
+
+.menu-inicial a:hover{
+    text-decoration: underline;
+}
+
 
 a{
     text-decoration: none;
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
