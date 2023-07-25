@@ -30,14 +30,11 @@ header {
     grid-template-columns: 300px auto;
     justify-items: center;
     color: white;
-    padding-right: 50px;
-    padding-left: 50px;
 }
 
 .navegacao {
     width: 100%;
     background-color: #20235a;
-    padding: 5px;
     align-items: center;
 }
 
