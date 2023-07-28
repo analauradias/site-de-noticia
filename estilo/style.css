@@ -3,7 +3,7 @@
 :root {
     --cor-pricipal: #F2F2F2;
     --cor-texto-pricipal: rgb(2, 2, 2);
-    --cor-pagina-incial: #4e5183bb;
+    --cor-pagina-incial: #4e51838e;
     --cor-pag-noticia: #F2F2F2;
 }
 
@@ -117,13 +117,15 @@ hr {
     margin-left: 100px;
     margin-top: 550px;
     border-radius: 5%;
-    box-shadow:  13px 5px 5px black;
+    box-shadow: 13px 5px 5px black;
 }
 
-.imagem-noticia{
+
+.imagem-noticia {
     text-align: center;
 }
-footer{
+
+footer {
     display: grid;
     background-color: #798C8C;
     color: white;
@@ -133,16 +135,24 @@ footer{
     align-items: center;
 }
 
-.hr-footer{
+.hr-footer {
     width: 55%;
     margin-left: 200px;
     margin-top: 25px;
 }
 
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#autor-noticia{
+#autor-noticia {
     font-size: 13px;
+}
+
+.zoom:hover {
+    scale: 1.05;
+}
+
+.zoom {
+    transition: 0.5s all ease-in-out;
 }
