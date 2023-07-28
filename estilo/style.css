@@ -76,7 +76,7 @@ body {
 }
 
 .menu-inicial a {
-    color: #00010D;
+    color: rgb(20, 19, 24);
 }
 
 .menu-inicial a:hover {
@@ -116,6 +116,8 @@ hr {
 .img-add {
     margin-left: 100px;
     margin-top: 550px;
+    border-radius: 5%;
+    box-shadow:  13px 5px 5px black;
 }
 
 .imagem-noticia{
