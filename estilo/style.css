@@ -156,3 +156,207 @@ h1 {
 .zoom {
     transition: 0.5s all ease-in-out;
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width:1196px){
+    header {
+        background-color: #1C1240;
+        display: grid;
+        grid-template-columns: 300px auto;
+        justify-items: center;
+        color: white;
+    }
+    .texto-header {
+        margin-left: -200px;
+        font-family: Agdasima;
+    }
+    .menu-inicial {
+        display: grid;
+        grid-template-columns: 500px 300px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 15px;
+        margin-top: 90px;
+        margin-left: -200px;
+    }
+    
+
+}
+
+@media (max-width:988px){
+    header {
+        background-color: #1C1240;
+        display: grid;
+        grid-template-columns: 300px auto;
+        justify-items: center;
+        color: white;
+    }
+    .texto-header {
+        margin-left: -200px;
+        font-family: Agdasima;
+    }
+    .menu-inicial {
+        display: grid;
+        grid-template-columns: 500px 200px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 15px;
+        margin-top: 90px;
+        margin-left: -200px;
+    }
+    
+
+}
+
+@media (max-width:876px){
+    header {
+        background-color: #1C1240;
+        display: grid;
+        grid-template-columns: 300px auto;
+        justify-items: center;
+        color: white;
+    }
+    .texto-header {
+        margin-left: -200px;
+        font-family: Agdasima;
+    }
+    .menu-inicial {
+        display: grid;
+        grid-template-columns: 500px 100px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 15px;
+        margin-top: 90px;
+        margin-left: -200px;
+    }
+    
+    
+
+}
+
+@media (max-width:886px){
+    header {
+        background-color: #1C1240;
+        display: grid;
+        grid-template-columns: 300px auto;
+        justify-items: center;
+        color: white;
+    }
+    .texto-header {
+        margin-left: -200px;
+        font-family: Agdasima;
+    }
+    .menu-inicial {
+        display: inline-block;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+        margin-left: 200px;
+    }
+    
+
+}
+
+@media (max-width:826px){
+    header {
+        background-color: #1C1240;
+        display: grid;
+        grid-template-columns: 300px auto;
+        justify-items: center;
+        color: white;
+    }
+    .texto-header {
+        margin-left: -200px;
+        font-family: Agdasima;
+    }
+    .menu-inicial {
+        display: inline-block;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+        margin-left: 100px;
+    }
+    
+
+}
+
+@media (max-width:588px){
+    header {
+        background-color: #1C1240;
+        display: grid;
+        grid-template-columns: 300px auto;
+        justify-items: center;
+        color: white;
+    }
+    .logo {
+        margin-top: 10px;
+        margin-left: -100px;
+    }
+    .texto-header {
+        margin-left: -100px;
+        font-family: Agdasima;
+    }
+    .menu-inicial {
+        display: inline-block;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+    footer {
+        display: grid;
+        background-color: #798C8C;
+        color: white;
+        text-align: center;
+        grid-template-rows: 50px;
+        margin-top: 100px;
+        align-items: center;
+    }
+    
+
+}
+
+/*parei aqui (não terminei a responsividade de 520px)*/
+@media (max-width:520px){
+    header {
+        background-color: #1C1240;
+        display: grid;
+        grid-template-columns: 300px auto;
+        justify-items: center;
+        color: white;
+    }
+    .logo {
+        margin-top: 10px;
+        margin-left: -100px;
+    }
+    .texto-header {
+        margin-left: -100px;
+        font-family: Agdasima;
+    }
+    .menu-inicial {
+        display: inline-block;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+    footer {
+        display: grid;
+        background-color: #798C8C;
+        color: white;
+        text-align: center;
+        grid-template-rows: 50px;
+        margin-top: 100px;
+        align-items: center;
+    }
+    
+
+}
