@@ -6,17 +6,18 @@
     --cor-pagina-incial: #4e51838e;
     --cor-pag-noticia: #F2F2F2;
 }
-
-.logo {
-    margin-top: 3%;
-}
-
 a {
     text-decoration: none;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+.logo {
+    margin-top: 3%;
 }
 
 .texto-header {
@@ -48,6 +49,26 @@ header {
 .navegacao a:hover {
     background-color: #010440;
 }
+.zoom{
+    transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover {
+    scale: 1.05;
+}
+
+#noticia-maior{
+    width: 500px;
+    height: 600px;
+}
+
+#noticias-menores{
+    width: 350px; 
+    height: 180px;
+}
+
+/* MAIN */
+
 
 body {
     display: grid;
@@ -83,6 +104,8 @@ body {
     text-decoration: underline;
 }
 
+/* NOTICIA */
+
 #subtitulo {
     font-size: 34;
     text-align: center;
@@ -113,6 +136,19 @@ hr {
     background-color: var(--cor-pag-noticia);
 }
 
+.imagem-noticia {
+    text-align: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#autor-noticia {
+    font-size: 13px;
+}
+
+/* PROPAGANDA */
+
 .img-add {
     margin-left: 100px;
     margin-top: 550px;
@@ -120,10 +156,7 @@ hr {
     box-shadow: 13px 5px 5px black;
 }
 
-
-.imagem-noticia {
-    text-align: center;
-}
+/* FOOTER */
 
 footer {
     display: grid;
@@ -141,25 +174,9 @@ footer {
     margin-top: 25px;
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#autor-noticia {
-    font-size: 13px;
-}
-
-.zoom {
-    transition: 0.5s all ease-in-out;
-}
-
-.zoom:hover {
-    scale: 1.05;
-}
-
 /* RESPONSIVIDADE */
 
-@media (max-width:968px){
+@media (max-width:1200px){
     .menu-inicial {
         display: grid;
         grid-template-columns: 500px 500px;
