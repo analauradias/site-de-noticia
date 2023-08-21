@@ -150,6 +150,10 @@ h1 {
     font-size: 13px;
 }
 
+.margem-news{
+    border-bottom: 1px solid gray;
+}
+
 /* PROPAGANDA */
 
 .img-add {
