@@ -19,7 +19,18 @@ p {
 
 .logo{
     margin-top: 3%;
+    animation: logo 4s alternate 2;
 
+}
+
+@keyframes logo {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+    
 }
 
 .texto-header {
